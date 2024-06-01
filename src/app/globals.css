@@ -2,7 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.input-wrapper {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.input-field {
+  width: 200px;
+  height: 30px;
+  padding: 0px 10px;
+  font-size: 14px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  outline: none;
+}
+.button {
+  width: 200px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textStyle {
+  width: 100%;
+  margin: 10px;
+  /* display: inline-block;
+  justify-content: center;
+  align-items: center; */
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +69,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
